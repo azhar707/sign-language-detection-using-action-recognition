@@ -51,23 +51,23 @@ The data collection script captures images of hand gestures using a webcam and s
 The collected data can be used to train a model using Google Teachable Machine, which provides an easy way to create machine learning models without extensive coding.
 
   # Steps to Train the Model
-   # Upload Images:
+    1. Upload Images:
 
      - Go to Google Teachable Machine.
      - Choose the "Image Project" option.
      - Upload the collected hand gesture images into the respective classes.
      
-   # Train the Model:
+    2. Train the Model:
 
     - Click on the "Train Model" button.
     - Wait for the model to be trained.
     
-   # Export the Model:
+    3. Export the Model:
 
     - After training, export the model by choosing the "TensorFlow" option.
     - Download the keras_model.h5 file and labels.txt file.
     
-   # Place the Files:
+    4. Place the Files:
 
     - Place the keras_model.h5 and labels.txt files in the root directory of this project.
 
