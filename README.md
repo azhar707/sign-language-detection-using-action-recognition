@@ -13,7 +13,7 @@ This repository contains a project for sign language detection using a webcam, l
 - [Usage]
 ## Introduction
 
-This project uses computer vision and machine learning to recognize and classify hand gestures for sign language. The core of the project is built using OpenCV for image processing and a pre-trained Keras model for gesture classification.
+This project uses computer vision and machine learning to recognize and classify hand gestures for sign language. The core of the project is built using OpenCV for image processing and a machine learning model trained using Google Teachable Machine for gesture classification.
 
 ## Requirements
 
