@@ -1,6 +1,6 @@
 # sign-language-detection-using-action-recognition
 
-This repository contains a project for sign language detection using a webcam, leveraging a pre-trained machine learning model. The project is divided into two main parts: data collection and sign language detection with model evaluation.
+This repository contains a project for sign language detection using a webcam, leveraging a machine learning model trained using Google Teachable Machine. The project is divided into three main parts: data collection, model training with Google Teachable Machine, and sign language detection with model evaluation.
 
 ## Table of Contents
 - [Introduction]
