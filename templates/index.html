@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0 1rem;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+        h1 {
+            margin-bottom: 2rem;
+        }
+        img {
+            width: 60%;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            display: none;
+            margin-bottom: 1rem;
+        }
+        .button-container {
+            margin-top: 2rem;
+        }
+        button {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0.5rem;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2>Sign Language Detection</h2>
+        </div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/evaluate">Evaluate</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Welcome to Sign Language Detection</h1>
+        <img id="video" src="" alt="Video Feed">
+        <div class="button-container">
+            <button id="startButton">Start Detection</button>
+            <button id="stopButton">Stop Detection</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('startButton').addEventListener('click', function() {
+            const video = document.getElementById('video');
+            video.src = "/video_feed";
+            video.style.display = 'block';
+            fetch('/start_detection', { method: 'POST' });
+        });
+
+        document.getElementById('stopButton').addEventListener('click', function() {
+            const video = document.getElementById('video');
+            video.style.display = 'none';
+            video.src = "";
+            fetch('/stop_detection', { method: 'POST' });
+        });
+    </script>
+</body>
+</html>
