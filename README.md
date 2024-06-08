@@ -107,3 +107,15 @@ This repository contains a project for sign language detection using a webcam, l
 # Contributing
 
       Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
+
+
+# DEMO
+![Screenshot (65)](https://github.com/azhar707/sign-language-detection-using-action-recognition/assets/113975872/5e9f552d-9dd2-4fcd-a6ff-a587eb4b02ae)
+
+
+![Screenshot (66)](https://github.com/azhar707/sign-language-detection-using-action-recognition/assets/113975872/5f2aee4a-196c-4e9b-b8ec-b14d068b265b)
+
+![Screenshot (67)](https://github.com/azhar707/sign-language-detection-using-action-recognition/assets/113975872/fb4a7d6c-125f-48fb-b800-5281dedb532c)
+
+
+![Screenshot (68)](https://github.com/azhar707/sign-language-detection-using-action-recognition/assets/113975872/4a17bc31-a5f2-4ddc-a9d5-081b3d5bc0a2)
