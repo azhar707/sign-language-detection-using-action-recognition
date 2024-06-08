@@ -44,11 +44,11 @@ This repository contains a project for sign language detection using a webcam, l
 
 
 # Data Collection
-The data collection script captures images of hand gestures using a webcam and stores them in a specified folder. This is useful for creating a dataset of hand gestures for training the model.
+   The data collection script captures images of hand gestures using a webcam and stores them in a specified folder. This      is useful for creating a dataset of hand gestures for training the model.
 
 
 # Model Training with Google Teachable Machine
-   The collected data can be used to train a model using Google Teachable Machine, which provides an easy way to create    machine learning models without extensive coding.
+   The collected data can be used to train a model using Google Teachable Machine, which provides an easy way to create         machine learning models without extensive coding.
 
   # Steps to Train the Model
     1. Upload Images:
@@ -72,12 +72,11 @@ The data collection script captures images of hand gestures using a webcam and s
     - Place the keras_model.h5 and labels.txt files in the root directory of this project.
 
 # Sign Language Detection
-   The app.py script captures real-time hand gestures via a webcam, classifies them using a pre-trained model, and 
-   evaluates the model using various metrics such as precision, recall, F1-score, and confusion matrix.
+      The app.py script captures real-time hand gestures via a webcam, classifies them using a pre-trained model, and 
+      evaluates the model using various metrics such as precision, recall, F1-score, and confusion matrix.
 
 # Model Evaluation
-   The model's performance is evaluated using precision, recall, F1-score, and confusion matrix. The results are visualized 
-   using matplotlib and seaborn.
+      The model's performance is evaluated using precision, recall, F1-score, and confusion matrix. The results are               visualized using matplotlib and seaborn.
 
 # Web Application
    The web application provides an interface for users to interact with the sign language detection system. It includes the 
@@ -90,21 +89,21 @@ The data collection script captures images of hand gestures using a webcam and s
 
 # Usage
 # 1.Data Collection:
-   Run the data collection script to capture images of hand gestures.
-   Save the captured images in the specified folder.
+      Run the data collection script to capture images of hand gestures.
+      Save the captured images in the specified folder.
 
 # Sign Language Detection:
 
-   Ensure you have the pre-trained model (keras_model.h5) and labels (labels.txt) in the correct path.
-   Run the sign language detection script to start the real-time gesture recognition and evaluation.
+      Ensure you have the pre-trained model (keras_model.h5) and labels (labels.txt) in the correct path.
+      Run the sign language detection script to start the real-time gesture recognition and evaluation.
 
 # Web Application
-   1. Start the Flask web application:
+      1. Start the Flask web application:
         python app.py
 
-   2. Open your browser and navigate to:
+      2. Open your browser and navigate to:
         http://127.0.0.1:5000
 
 # Contributing
 
-   Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
+      Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
