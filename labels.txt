@@ -1,0 +1,17 @@
+0 1
+1 2
+2 3
+3 4
+4 5
+5 C
+6 Grab
+7 Hand Shake
+8 Hello
+9 I Love You
+10 M
+11 No
+12 O
+13 Okay
+14 Pinch
+15 Thank You
+16 Yes
